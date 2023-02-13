@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style3.css"/>
+    <title>Project</title>
+</head>
+<body>
+    <header>
+    <h1>Ajouter un projet:</h1>
+    </header>
+
+
+    <main>
+
+<div class="project">
+    <form action="/addProject" method="POST">
+
+  <div class="name">
+    <label for="name">Nom du Projet:</label>
+  </div>  
+    <input type="text" id="name" name="name">
+
+<div class="description">
+    <label for="description">Description:</label>
+</div>
+
+    <input type="text" id="description" name="description"> 
+
+<div class="link">
+    <label for="liengithub">Lien Github:</label>
+ </div>   
+    <input type="text" id="liengithub" name="liengithub">
+    
+    <div>
+    <button type="submit" class="btn-val">Validé</button>
+ </div>
+
+    </div>
+    </form>
+    
+    
+    
+    
+    </main>
+</body>
+</html>

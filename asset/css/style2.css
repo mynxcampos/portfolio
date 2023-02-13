@@ -1,0 +1,29 @@
+body{
+    background-image: url(../img/backgroundlogin1.png);
+    color: white;
+}
+
+
+h1{
+    text-align: center;
+    margin-top: 20vh;
+}
+
+.login{
+    text-align: center;
+    margin-top: 10vh;
+}
+
+.user{
+    font-size: 2.5vh;
+}
+
+.password{
+    padding-top: 3vh;
+    font-size: 2.5vh;
+}
+
+.btn-login{
+    margin-top: 5vh;
+    font-size: 2vh;
+}

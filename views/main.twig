@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<link rel="stylesheet" href="./css/style.css"/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+		<title>Mélanie De Sousa Campos</title>
+	</head>
+	<body>
+		<!-- particles.js container -->
+		<div id="particles-js"></div>
+
+		<!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
+		<script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+		<!-- stats.js lib -->
+		<script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+
+		<!--/************************BARRE DE NAV**********************/-->
+
+		<header>
+			<nav>
+				<a class="navbar" href="">Accueil</a>
+				<a class="navbar" href="#compe">Compétences</a>
+				<a class="navbar" href="#pro">Projets</a>
+				<a class="navbar" href="#conta">Contact</a>
+				<a class="navbar" href="/login">Connexion</a>
+			</nav>
+		</header>
+
+		<!--/************************EN TETE AVEC TITRE ET MA PHOTO**********************/-->
+
+		<main>
+			<div class="name">
+				<img src="img/symbole.png" alt="" class="logo"/>
+				<div>
+					<h1>Mélanie De Sousa Campos</h1>
+					<h2>Développeuse Web Junior</h2>
+				</div>
+			</div>
+
+			<!--/************************TITRE ET INFOS DE MOI**********************/-->
+
+			<div class="information">
+				<h3 id="info">A propos de moi :</h3>
+				<div class="propos">
+					<img src="./img/dev.png" alt=""/>
+
+					<div class="aboutme">
+						<p>
+							Hi,
+							<br/>
+							Je suis Mélanie De Sousa Campos,
+							<br/>
+							passionnée par le monde informatique depuis mon plus jeune âge,<br/>
+							j'ai décidé de faire une reconversion professionnelle.
+							<br/>
+							J'ai intégrer l'école Ri7 sur Aubagne dans le développement du
+																																			              Web.
+							<br/>
+							<br/>
+							Je souhaiterais intégré une entreprise au mois de mai en tant
+																																			              qu'alternante,
+							<br/>
+							afin d'améliorer et encore plus cultiver mes compétences de
+																																			              développeuse.
+							<br/>
+							<br/>
+							Aillant travaillé en restauration rapide,
+							<br/>
+							j'ai le sens du travail en équipe, je sais être à l'écoute et
+																																			              effectuer les tâches qui sont nécessaires.
+							<br/>
+							Je suis une personne sociable, j'aime partager mon savoir et en
+																																			              apprendre également.
+							<br/>
+							Je suis curieuse, et j'adore les challenges.
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<!--/************************TIMELINE**********************/-->
+
+			<p class="parcours">Mon parcours:</p>
+
+			<div id="timeline">
+				<div class="tl-item">
+					<div class="tl-bg" id="photoT1"></div>
+
+					<div class="tl-year">
+						<p class="f2 heading--sanSerif">2017</p>
+					</div>
+
+					<div class="tl-content">
+						<h7>Sortie de l'école, Métiers de la Mode - Vêtements</h7>
+						<p>
+							Obtention du brevet d'études professionnelles dans le domaine des
+																																			              métiers de la mode, stylisme modélisme.
+						</p>
+					</div>
+				</div>
+
+				<div class="tl-item">
+					<div class="tl-bg" id="photoT2"></div>
+
+					<div class="tl-year">
+						<p class="f2 heading--sanSerif">2019</p>
+					</div>
+
+					<div class="tl-content">
+						<h7 class="f3 text--accent ttu">Travail dans la société E.U.R.L Ciorest (Macdonald's)</h7>
+						<p>
+							Travaillant depuis 2018 dans leurs sociéte, en 2019 je suis promue
+																																			              en tant que formatrice. Je suis également mutée dans la même
+																																			              enseigne mais cette fois ci sur Aubagne en tant que formatrice.
+							<br/>
+							Je travaille jusqu'en 2021 chez Macdonald's.
+						</p>
+					</div>
+				</div>
+
+				<div class="tl-item">
+					<div class="tl-bg" id="photoT3"></div>
+
+					<div class="tl-year">
+						<p class="f2 heading--sanSerif">2022</p>
+					</div>
+
+					<div class="tl-content">
+						<h7 class="f3 text--accent ttu">J'intégre la sociéte LocEtEau</h7>
+						<p>
+							En 2022 je change de voie proféssionnelle, et j'obtient un cdd de
+																																			              3 mois dans l'entreprise LocEtEau en tant que télévendeuse
+																																			              (commerciale).
+							<br/>
+							Je me rends compte que finalement ce n'est pas un domaine qui ne
+																																			              me plait pas. Je ne donne donc pas suite pour le cdi.
+						</p>
+					</div>
+				</div>
+
+				<div class="tl-item">
+					<div class="tl-bg" id="photoT4"></div>
+
+					<div class="tl-year">
+						<p class="f2 heading--sanSerif">2023</p>
+					</div>
+
+					<div class="tl-content">
+						<h7 class="f3 text--accent ttu">Reconversion professionnelle</h7>
+						<p>
+							Passionnée par l'informatique à mon temps perdue, je décide donc
+																																			              d'en faire un métier et d'intégrer une formation dans l'école Ri7
+																																			              à Aubagne.
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<!--/************************MES COMPETENCES TITRE IMAGE**********************/-->
+
+			<div class="competencesContainer">
+				<h4 id="compe">Mes compétences :</h4>
+				<div class="competences">
+					<img
+					class="frontback" src="./img/backfront3.png" alt=""/>
+
+					<!--/************************MES COMPETENCES LOGO**********************/-->
+
+					<section id="hobbies">
+						<div
+							class="pictures">
+							<!--/************************PREMIER LOGO**********************/-->
+
+							<div class="flip-box">
+								<div class="flip-box-inner">
+									<div class="flip-box-front">
+										<img src="./img/figma1.svg" alt="pates"/>
+									</div>
+									<div class="flip-box-back" id="figma-id">
+										<div class="iconText">
+											<p>Figma</p>
+											<p>Maquette</p>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<!--/************************SECOND LOGO**********************/-->
+
+							<div class="flip-box">
+								<div class="flip-box-inner">
+									<div class="flip-box-front">
+										<img src="./img/bootstrap1.svg" alt="moto"/>
+									</div>
+									<div class="flip-box-back" id="boot-id">
+										<div class="iconText">
+											<p>Bootstrap</p>
+											<p>Front-End</p>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<!--/************************TROISIEME LOGO**********************/-->
+
+							<div class="flip-box">
+								<div class="flip-box-inner">
+									<div class="flip-box-front">
+										<img src="./img/html1.svg" alt="cine"/>
+									</div>
+									<div class="flip-box-back" id="html-id">
+										<div class="iconText">
+											<p>HTML</p>
+											<p>Front-End</p>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<!--/************************QUATRIEME LOGO**********************/-->
+
+							<div class="flip-box">
+								<div class="flip-box-inner">
+									<div class="flip-box-front">
+										<img src="./img/css1.svg" alt="science"/>
+									</div>
+									<div class="flip-box-back" id="css-id">
+										<div class="iconText">
+											<p>CSS</p>
+											<p>Front-End</p>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<!--/************************CINQUIEME LOGO**********************/-->
+
+							<div class="flip-box">
+								<div class="flip-box-inner">
+									<div class="flip-box-front">
+										<img src="./img/sass1.svg" alt="science"/>
+									</div>
+									<div class="flip-box-back" id="sass-id">
+										<div class="iconText">
+											<p>Sass</p>
+											<p>Front-End</p>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<!--/************************SIXIEME LOGO**********************/-->
+
+							<div class="flip-box">
+								<div class="flip-box-inner">
+									<div class="flip-box-front">
+										<img src="./img/js1.svg" alt="science"/>
+									</div>
+									<div class="flip-box-back" id="js-id">
+										<div class="iconText">
+											<p>JavaScript</p>
+											<p>
+												Front-End
+												<br/>
+												Back-End
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<!--/************************SEPTIEME LOGO**********************/-->
+
+							<div class="flip-box">
+								<div class="flip-box-inner">
+									<div class="flip-box-front">
+										<img src="./img/twig1.svg" alt="science"/>
+									</div>
+									<div class="flip-box-back" id="twig-id">
+										<div class="iconText">
+											<p>Twig</p>
+											<p>Back-End</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+				</div>
+			</div>
+
+			<!--/************************PROJETS**********************/-->
+
+			<p class="projectContainer">Mes projects</p>
+
+			<div class="pageProject" id="pro">
+
+				<div class="slider">
+
+					<a href="#slide-1">1</a>
+					<a href="#slide-2">2</a>
+					<a href="#slide-3">3</a>
+					<a href="#slide-4">4</a>
+					<a href="#slide-5">5</a>
+
+					<div class="slides">
+						<div id="slide-1">
+							<img src="./img/quiz.png" alt="">
+						</div>
+						<div id="slide-2">
+							<img src="./img/p4.png" alt="">
+						</div>
+						<div id="slide-3">
+							<img src="./img/tietoe.png" alt="">
+						</div>
+						<div id="slide-4">
+							4
+						</div>
+						<div id="slide-5">
+							5
+						</div>
+					</div>
+				</div>
+
+				<div class="projecText">
+					<p>
+						Cliquez sur les images pour découvrir
+						<br/>
+						mes différents projets !
+					</p>
+				</div>
+			</div>
+
+			<!-- ************************************CONTACT******************************** -->
+
+			<div id="conta">
+				<p class="contact">Contact</p>
+			</div>
+
+
+			<form class="form" action="/sendMail" method="POST">
+				<div class="card">
+					<div class="row">
+						<div class="col">
+							<div class="form-group">
+								<label>Nom</label>
+								<input type="text" name="name"/>
+							</div>
+						</div>
+
+						<div class="col">
+							<div class="form-group">
+								<label>Prénom</label>
+								<input type="text" name="firstname"/>
+							</div>
+						</div>
+
+						<div class="col">
+							<div class="form-group">
+								<label>Email</label>
+								<input type="text" name="email"/>
+							</div>
+						</div>
+
+						<div class="col">
+							<div class="form-group">
+								<label>Portable</label>
+								<input type="text" name="tel"/>
+							</div>
+						</div>
+
+						<div class="col">
+							<div class="form-group">
+								<label>Votre message:</label>
+								<textarea name="message"></textarea>
+							</div>
+						</div>
+
+						<div class="col">
+							<input type="submit" value="Submit"/>
+						</div>
+					</div>
+				</div>
+			</form>
+
+
+			<div class="cvContainer">
+				<a href="./img/cv.pdf" class="cv" target="_blank">
+					Télécharger cv
+				</a>
+			</div>
+
+		</main>
+
+		<!-- **************************************BAS DE PAGE / RESEAUX / ADRESSE********************************************* -->
+
+		<footer>
+			<div class="reseau">
+				<div class="adress">
+					<div class="containerAdress">
+
+						<p><img src="./img/adresseicon.png" alt="" class="imgAdress"/>Où me trouver:</p>
+					</div>
+					<span class="linkAdress">Aubagne 13400 / France</span>
+				</div>
+
+				<div class="github">
+					<div class="containerGit">
+
+						<p>
+							<img src="./img/github.png" alt="" class="imgGit"/>github</p>
+					</div>
+					<a class="linkGit" href="https://github.com/mynxcampos" target="_blank">MynxCampos</a>
+				</div>
+
+				<div class="linkedin">
+					<div class="containerLink">
+
+						<p>
+							<img src="./img/linkedin.png" alt="" class="imgLink"/>Linkedin</p>
+					</div>
+
+					<a class="linkLin" href="https://www.linkedin.com/in/mélanie-de-sousa-campos-216478261/" target="_blank">Mélanie De Sousa Campos</a>
+				</div>
+			</div>
+		</footer>
+	</body>
+	<script src="./js/main.js"></script>
+</html>
